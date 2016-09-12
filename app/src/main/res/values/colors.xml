@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#708BB7</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#B9E370</color>
+    <color name="button">#AEBAD5</color>
+    <color name="buttonOnClick">#B9E370</color>
+    <color name="TitleText">#B9E370</color>
+    <color name="TabClickColor">#B9E370</color>
+    <color name="TabBackground">#AEBAD5</color>
+    <color name="ToolBarBackground">#708BB7</color>
+    <color name="TextTodoTitle">#0F5160</color>
+
+</resources>

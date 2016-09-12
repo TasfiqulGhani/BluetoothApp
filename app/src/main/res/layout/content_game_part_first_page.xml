@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".35"
+        android:background="#708BB7"
+        android:orientation="horizontal"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageButton
+
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@color/colorPrimary"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            >
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/toolbar"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:layout_centerInParent="true"
+                android:id="@+id/settings_button"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/settings_button"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".34"
+        android:background="#eaf678"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#a1e342"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/Home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Home"
+                android:textColor="#0F515F"
+                android:background="@drawable/as"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/button2"
+                android:text="Connect"
+                android:textColor="#0F515F"
+                android:background="@drawable/as_not"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#AAA777"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Settings"
+                android:background="@drawable/as_not"
+                android:textColor="#0F515F"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="3"
+        android:background="@android:color/holo_green_dark"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Connect"
+            android:background="@android:color/holo_red_dark"
+            android:layout_marginLeft="10dp"
+            android:onClick="connect"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:background="@android:color/holo_red_dark"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Dis-Connect"
+            android:layout_marginLeft="10dp"
+            android:onClick="dconnect"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text=" "
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imageStatus"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                 />
+
+            <Button
+                android:id="@+id/btnForward"
+                android:background="@android:color/holo_red_dark"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageStatus"
+                android:layout_centerHorizontal="true"
+                android:drawableBottom="@drawable/foward"
+                android:text="Up"
+                android:textColor="#33434C" />
+
+            <Button
+                android:id="@+id/btnBackward"
+                android:background="@android:color/holo_red_dark"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageStatus"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="4dp"
+                android:drawableBottom="@drawable/backward"
+                android:text="Down"
+                android:textColor="#33434C" />
+
+            <Button  android:background="@android:color/holo_red_dark"
+                android:id="@+id/btnLeft"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/imageStatus"
+                android:drawableBottom="@drawable/left"
+                android:text="Left"
+                android:textColor="#33434C" />
+
+            <Button  android:background="@android:color/holo_red_dark"
+                android:id="@+id/btnRight"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/imageStatus"
+                android:drawableBottom="@drawable/right"
+                android:text="Right"
+                android:textColor="#33434C" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".34"
+        android:background="@color/button"
+        android:orientation="horizontal"
+
+
+        >
+        <RelativeLayout
+            android:id="@+id/linBottomOne"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/bottomone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bulb_blue"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/linBottomTwo"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="@color/button"
+            android:orientation="vertical"
+            >
+            <Button
+            android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/bottomtwo"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/todo_blue"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/linBottomThree"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:orientation="vertical"
+            android:backgroundTint="@color/buttonOnClick"
+            >
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                 android:layout_centerInParent="true"
+                android:background="@drawable/trophy_green"
+                android:id="@+id/bottomthree"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

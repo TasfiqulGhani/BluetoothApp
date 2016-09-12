@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Free To Walk</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_part_first_page">GamePartFirstPage</string>
+    <string name="title_activity_game_part_second_page">GamePartSecondPage</string>
+    <string name="title_activity_game_part_third_page">GamePartThirdPage</string>
+    <string name="title_activity_todo_first_page">TodoFirstPage</string>
+    <string name="title_activity_todo_second_page">TodoSecondPage</string>
+    <string name="title_activity_todo_third_page">TodoThirdPage</string>
+    <string name="title_activity_news_feed_first_page">NewsFeedFirstPage</string>
+    <string name="title_activity_news_feed_second_page">NewsFeedSecondPage</string>
+    <string name="title_activity_news_feed_third_page">NewsFeedThirdPage</string>
+    <string name="txtCredits">www.google.com</string>
+     <string name="underlined_button"><u>Loe edasi siit</u>
+    </string>
+    <string name="title_activity_device_list">DeviceList</string>
+
+</resources>

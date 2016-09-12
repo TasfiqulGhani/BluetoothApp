@@ -1,0 +1,165 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp"
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txt1"
+                    android:textColor="#0F5160"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    \n\nExercises for the leg muscles are just as important in patients with paralysis as they are in able-bodied individuals. Depending on the cause of the paralysis, gaining muscle strength is not always an option. However, keeping the muscles, tendons, ligaments and joints as healthy as possible is essential to avoid contractures in the paralyzed legs. Contractures occur when the normally stretchy tissue loses its flexibility and makes movement difficult. This causes joints to lock up and increased pain. Without the ability to move the legs, passive range-of-motion exercises performed by a caregiver increase circulation and keep your legs as healthy as possible. Before beginning any exercise program, consult with your physician. "
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    />
+
+
+                <Button
+                    android:id="@+id/more1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:background="@null"
+                    android:textColor="#0F5160"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="Step 1"
+                    />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txt3"
+                android:textColor="#0F5160"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=  "Perform a hip rotation exercise. Lie flat on your back with your legs out straight. Have your assistant hold your left leg by placing one hand on the thigh and the other hand below the knee. The assistant will bend the knee toward the chest until there is a 90-degree angle at the hip and knee. Next, they will pull the leg toward them and then push it away in the opposite direction. Repeat for 10 repetitions. Lower the left leg and repeat steps with the right leg."
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <Button
+                android:id="@+id/more2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:textColor="#0F5160"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="Step 2"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txt5"
+                android:textColor="#0F5160"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lie flat on your back with your legs straight out. Have the assistant stand on your left side and roll the left leg inward so the big toe touches the bed. Roll the opposite way so the little toe touches the bed. Repeat for 10 repetitions before repeating with the right leg."
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <Button
+                android:id="@+id/more3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:textColor="#0F5160"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="Step 3"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txt7"
+                android:textColor="#0F5160"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Have the assistant stand on your left side. With your leg flat on the bed, the assistant will pull the leg outward as far as possible. Next, they will return to the starting position before crossing it over the right leg as far as possible. Repeat this for 10 repetitions before moving to the right leg and repeating the steps."
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+            <Button
+                android:id="@+id/more4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:textColor="#0F5160"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="Step 4"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txt9"
+                android:textColor="#0F5160"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perform ankle and toe rotations. The assistant will hold your ankle in one hand and gently rotate the foot and ankle in circles. Do this 10 times on each foot. For toe bends, the assistant will curl your toes down toward the bottom of the foot, then straighten and stretch each toe."
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+           </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

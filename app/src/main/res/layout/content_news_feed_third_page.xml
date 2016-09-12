@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:background="#eaf678"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#a1e342"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/topone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1st"
+                android:textColor="#FFFFFF"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/toptwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="2nd"
+                android:textColor="#FFFFFF"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#AAA777"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/topthree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1st"
+
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Mitmele küsimusele soovite vastata? "
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".6"
+        android:background="@color/button"
+        android:orientation="horizontal"
+
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/bottomone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:background="@drawable/blub_green"
+                android:textColor="#FFFFFF"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="@color/button"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bottomtwo"
+                android:layout_marginTop="2dp"
+
+                android:background="@drawable/todo_blue"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/trophy_blue"
+                android:id="@+id/bottomthree"
+
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

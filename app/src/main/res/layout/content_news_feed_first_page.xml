@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".35"
+        android:background="#708BB7"
+        android:orientation="horizontal"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageButton
+
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@color/colorPrimary"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            >
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/toolbar"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:layout_centerInParent="true"
+                android:id="@+id/settings_button"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/settings_button"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.3"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        >
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity_Fragment">
+
+            <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.AppBarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tabs"
+                        android:background="@color/button"
+                        android:layout_width="match_parent"
+                        app:tabIndicatorHeight="5dp"
+                        app:tabTextColor="@color/TextTodoTitle"
+                        app:tabSelectedTextColor="#0d4856"
+                        android:layout_height="match_parent"
+                        app:tabMode="fixed"
+                        app:tabGravity="fill"/>
+                </android.support.design.widget.AppBarLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+            </android.support.design.widget.CoordinatorLayout>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".34"
+        android:background="@color/button"
+        android:orientation="horizontal"
+
+        >
+        <RelativeLayout
+            android:clickable="true"
+            android:id="@+id/linBottomOne"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/buttonOnClick"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/bottomone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bulb_green"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:id="@+id/linBottomTwo"
+            android:background="@color/button"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_centerInParent="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/bottomtwo"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/todo_blue"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:clickable="true"
+            android:id="@+id/linBottomThree"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:orientation="vertical"
+
+            >
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/trophy_blue"
+                android:id="@+id/bottomthree"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

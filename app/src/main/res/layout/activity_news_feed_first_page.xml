@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.buddybear.NewsFeedFirstPage">
+
+
+    <include layout="@layout/content_news_feed_first_page" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabf"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@null"
+        app:backgroundTint="@color/buttonOnClick"
+        android:src="@drawable/floating" />
+
+</android.support.design.widget.CoordinatorLayout>
